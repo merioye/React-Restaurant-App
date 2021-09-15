@@ -1,0 +1,153 @@
+
+/* ############ Navbar style starts here ########### */
+.nav-container{
+    width: 1000px;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 50px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px -15px black;
+}
+
+.menu-items-container{
+    height: 100%;
+    width: 60%;
+}
+
+.menu-items-container ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0px;
+}
+
+.menu-items-container ul li:hover{
+    color: #9fa1a6;
+}
+
+
+.search-container{
+    height: 100%;
+    width: 25%;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box{
+    height: 43px;
+    width: 150px;
+    font-size: 1rem;
+    text-align: center;
+}
+.search-box:focus{
+    outline: none;
+}
+
+.search-btn{
+    height: 43px;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: white;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/* ############ Navbar style ends here ########### */
+
+
+
+
+
+
+
+
+/* ################ Card style starts here ########### */
+.cards-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards-container::after{
+    content: '';
+    width: 20em;
+}
+
+
+.card-container{
+    width: 450px;
+    height: 750px;
+    background-color: white;
+    padding: 40px 30px 30px 30px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 20px -15px black;
+}
+
+.id-btn{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #9fa1a6;
+    color: #9fa1a6;
+    padding-bottom: 1px;
+    background-color: white;
+}
+.category-text{
+    margin-top: 10px;
+    color: #9fa1a6;
+}
+.item-name{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.desc{
+    color: #9fa1a6;
+    margin-top: 10px;
+}
+.line-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 70%;
+    height: 1px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.line-wrapper span{
+    letter-spacing: 2px;
+    margin-top: 8px;
+    font-weight: 700;
+}
+.item-image{
+    height: 60%;
+    width: 100%;
+    margin-top: 30px;
+}
+.order-btn{
+    padding: 5px 8px;
+    background-color: white;
+    color: #9fa1a6;
+    border: 1px solid #9fa1a6;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* ################ Card style ends here ########### */
